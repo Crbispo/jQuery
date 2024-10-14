@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    }
+
+h1 {
+    padding: 14px;
+    font-style: italic;
+}
+
+#img-Prancheta img {
+    position: relative;
+    width: 5%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#task-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(120, 200, 120) ;
+}
+
+#delete {
+    background-color: red;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border: none;
+    margin: 5px 0;
+    cursor: pointer;    
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: rgb(78, 156, 120);
+}
